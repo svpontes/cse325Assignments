@@ -50,6 +50,30 @@ public static class SeedData
                 Genre = "Western",
                 Rating = "K",
                 Price = 3.99M
+            },
+             new Movie
+            {
+                Title = "Jaws",
+                ReleaseDate = DateTime.Parse("1975-6-20"),
+                Genre = "Thriller",
+                Rating = "PG",
+                Price = 8.00M
+            },
+              new Movie
+            {
+                Title = "The Matrix",
+                ReleaseDate = DateTime.Parse("1999-3-31"),
+                Genre = "Science Fiction",
+                Rating = "R",
+                Price = 12.00M
+            },
+              new Movie
+            {
+                Title = "Titanic",
+                ReleaseDate = DateTime.Parse("1997-12-19"),
+                Genre = "Romance",
+                Rating = "PG-13",
+                Price = 13.00M
             }
         );
 
